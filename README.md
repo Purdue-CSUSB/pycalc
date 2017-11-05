@@ -1,5 +1,5 @@
 # pycalc
-A python calculator project to be cloned by CS 190 students
+A python calculator project to be cloned by CS 193 students
 
 ## How to Use
 1. Clone this repository.
