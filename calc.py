@@ -14,28 +14,28 @@ import sys
 # -------------------------------------------------------- #
 
 # Add function
-# a -- addend
-# b -- augend
-def add(a, b):
-    return a + b
+# num1 -- addend
+# num2 -- augend
+def add(num1, num2):
+    return num1 + num2
 
 # Subtract function
 # a -- minuend
 # b -- subtrahend
-def sub(a, b):
-    return a - b
+def sub(num1, num2):
+    return num1 - num2
 
 # Multiply function
-# a -- multiplicand
-# b -- multiplier
-def mult(a, b):
-    return a * b
+# num1 -- multiplicand
+# num2 -- multiplier
+def mult(num1, num2):
+    return num1 * num2
 
 # Divide function
-# a -- dividend
-# b -- divisor
-def div(a, b):
-    return a / b
+# num1 -- dividend
+# num2 -- divisor
+def div(num1, num2):
+    return num1 / num2
 
 
 # -------------------------------------------------------- #
@@ -45,18 +45,18 @@ def div(a, b):
 # -- MAIN FUNCTIONAILTY -- DO NOT EDIT ------------------- #
 # -------------------------------------------------------- #
 
-a = None
-b = None
+num1 = None
+num2 = None
 op = None
 
 while (True):
     # get input values
-    a = raw_input("Enter the first argument: ")
+    num1 = raw_input("Enter the first argument: ")
     op = raw_input("Enter the operation: ")
-    b = raw_input("Enter the second argument: ")
+    num1 = raw_input("Enter the second argument: ")
     try:
-        a = int(a)
-        b = int(b)
+        num1 = int(num1)
+        num2 = int(num2)
     except ValueError:
         print "Invalid number argument..."
         op = None
@@ -64,13 +64,13 @@ while (True):
     # decide function
     if (op != None):
         if (op == "+"):
-            print "Sum: ", add(a, b)
+            print "Sum: ", add(num1, num2)
         elif (op == "-"):
-            print "Difference: ", sub(a, b)
+            print "Difference: ", sub(num1, num2)
         elif (op == "*"):
-            print "Product: ", mult(a, b)
+            print "Product: ", mult(num1, num2)
         elif (op == "/"):
-            print "Quotient: ", div(a, b)
+            print "Quotient: ", div(num1, num2)
         else:
             print "Invalid operation..."
 
