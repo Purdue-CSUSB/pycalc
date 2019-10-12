@@ -35,7 +35,9 @@ def mult(a, b):
 # a -- dividend
 # b -- divisor
 def div(a, b):
-    return a / b
+	if b = 0:
+		print("Undefined")
+		return a / b
 
 
 # -------------------------------------------------------- #
