@@ -25,6 +25,7 @@ A python calculator project to be cloned by CS 193 students
 | -        | subtraction    |
 | *        | multiplication |
 | /        | division       |
+| ^        | power          |
 
 ## License
 See [License](https://github.com/Purdue-CSUSB/pycalc/blob/master/LICENSE).
