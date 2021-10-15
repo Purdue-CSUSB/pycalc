@@ -1,3 +1,4 @@
+# This is a very good calculator and it is very helpful for students
 #!/usr/bin/env python
 
 # Copyright 2016 -- Levi Starrett & Jay Hankins
